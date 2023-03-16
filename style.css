@@ -88,7 +88,7 @@
   
   @media(max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 50px;
         font-family: Phenomena;
     }
     .nav-links ul li{
@@ -124,7 +124,7 @@
 }
   .col h1{
     font-family: Phenomena;
-    color:rgb(92, 214, 122);
+    color: #20c997;
     font-weight: 600;
     font-size: 50px;
 }
@@ -137,14 +137,14 @@
 @media(max-width: 700px){
     .col h1{
         font-family: Phenomena;
-        color:rgb(92, 214, 122);
+        color:#20c997;
         font-weight: 600;
         font-size: 30px;
     }
     .col p{
         font-family: Futura Bk BT;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -164,8 +164,80 @@ a.social {
   line-height: 40px;
 }
 
-.display-3{
+.Tim {
   font-size: 50px;
   font-family: Phenomena;
-  font-weight: 900;
+  font-weight: 500;
 }
+
+/*----- Postingan -----*/
+
+.course{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1{
+  font-size: 36px;
+  font-size: 600;
+}
+
+p{
+  color: #777;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row1{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-col1{
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.course-col1:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 700px) {
+  .row1{
+      flex-direction: column;
+  }
+}
+
+/*----- Postingan -----*/
+
+/* Gedung */
+.campus{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.campus-col{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Footer */
