@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
 }
 
 .header {
@@ -309,10 +311,11 @@ a.social {
 /* Fasilitas */
 
 .fasilitas {
-  width: 100%;
+  width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
+  display: block;
 }
 .fasilitas-col{
   flex-basis: 33.3%;
@@ -339,7 +342,7 @@ a.social {
 /* call to action */
 .cta{
   margin: 100px auto;
-  width: 100%;
+  width: 90%;
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/banner2.jpg);
   background-position: center;
   background-size: cover;
@@ -360,7 +363,7 @@ a.social {
 }
 
 /* Footer */
-.container-fluid {
+.container-footer {
   max-width: 1170px;
   margin: auto;
 }
