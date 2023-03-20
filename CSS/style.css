@@ -1,12 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.bg-dark{
+width: auto;
 }
-.paragraf{
-    font-size: 40px;
-    background-color: rgb(244, 244, 244);
-    padding: 40px;
-    font-family: sans-serif;
+.img-fluid{
+    width: 500px;
 }
-
