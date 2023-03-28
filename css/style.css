@@ -6,15 +6,17 @@
   line-height: 1.5;
 }
 
+/* Banner */
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/smk.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../img/smk.jpg");
   background-position: center;
   background-size: cover;
   position: relative
 }
 
+/* Navbar */
 nav {
   display: flex;
   padding: 2% 6%;
@@ -104,6 +106,7 @@ nav .fa {
   display: none;
 }
 
+/* Responsive Navbar */
 @media(max-width: 700px) {
   .text-box h1 {
     font-size: 50px;
@@ -142,7 +145,7 @@ nav .fa {
 
 /* Deskripsi */
 .row {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 h1 {
@@ -158,6 +161,7 @@ h1 {
   font-size: 20px;
 }
 
+/* Responsive Deskripsi */
 @media(max-width: 700px) {
   h1 {
     font-family: Phenomena;
@@ -173,7 +177,7 @@ h1 {
   }
 }
 
-/* staff */
+/* Tim */
 .tim img {
   width: 250px;
   border: 10px solid #cccccc;
@@ -197,12 +201,11 @@ a.social {
 }
 
 /*----- Postingan -----*/
-
 .course {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 .course-col1 p {
@@ -214,7 +217,7 @@ a.social {
 }
 
 .row1 {
-  margin-top: 5%;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -239,21 +242,19 @@ a.social {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* Responsive Postingan */
 @media(max-width: 700px) {
   .row1 {
     flex-direction: column;
   }
 }
 
-/*----- Postingan -----*/
-
-
 /* Gedung */
 .campus {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .campus-col {
@@ -302,19 +303,12 @@ a.social {
   opacity: 1;
 }
 
-@media(max-width: 700px) {
-  .layer:hover h3 {
-    font-size: 15px;
-  }
-}
-
 /* Fasilitas */
-
 .fasilitas {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 30px;
   display: block;
 }
 
@@ -346,7 +340,7 @@ a.social {
 .cta {
   margin: 100px auto;
   width: 90%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/banner2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/banner2.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -361,6 +355,7 @@ a.social {
   font-family: Futura Bk Bt;
 }
 
+/* Responsive call to action */
 @media(max-width: 700px) {
   .cta h1 {
     font-size: medium;
@@ -465,7 +460,7 @@ a.social {
   bottom: 0;
 }
 
-/*responsive*/
+/* responsive Footer*/
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
