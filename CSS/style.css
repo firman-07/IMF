@@ -1,0 +1,11 @@
+.banner {
+    background-image: url("https://smktibazma.sch.id/static/media/hero-1.2803f83852406277b6cd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+.crop-img {
+    object-fit: cover;
+}
