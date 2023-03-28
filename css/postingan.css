@@ -6,7 +6,7 @@
   .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/smk.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../img/smk.jpg");
     background-position: center;
     background-size: cover;
     position:relative
@@ -90,7 +90,7 @@
   
   @media(max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 50px;
         font-family: Phenomena;
     }
     .nav-links ul li{
@@ -98,7 +98,7 @@
     }
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: #0d6efd;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -150,7 +150,7 @@
     }
 }
 
-/* staff */
+/* Tim */
 .tim img {
   width: 250px;
   border: 10px solid #cccccc;
@@ -172,11 +172,7 @@ a.social {
   font-weight: 600;
 }
 
-
-
-
-/*----- Campus -----*/
-
+/* Berita */
 .rounded{
   width: 100%;
   padding: 0%;
@@ -194,11 +190,6 @@ a.social {
   padding: 0;
 
 }
-
-
-
-/*----- Campus -----*/
-
 
 /* footer */
 body {
@@ -307,7 +298,3 @@ body {
     width: 100%;
   }
 }
-
-
-
-/* footer */
